@@ -266,6 +266,7 @@ app.post('/detectLangs', express.json(), function (req, res) {
 });
 
 
-app.listen(8080, function () {
-    console.log("listening on 8080")
+app.listen(3000, function () {
+    console.log("listening on 3000")
 });
+// 제작자는 지금 심심합니다
