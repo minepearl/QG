@@ -5,12 +5,9 @@ var { OpenAIApi, Configuration } = require('openai');
 const config = require('config');
 var openai = new OpenAIApi(new Configuration({
     apiKey: process.env.apiKey
-    // config.get('openai.apiKey')
 }));
 var client_id = process.env.client_id
-// config.get('client_id')
 var client_secret = process.env.client_secret
-// config.get('client_secret')
 
 
 
